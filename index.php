@@ -6,8 +6,7 @@
  -->
 <?php get_header(); ?>
 
-        <div class="container">
-            <!-- check to see if the post/page actually has a post -->
+           <!-- check to see if the post/page actually has a post -->
             <?php if(have_posts()): ?>
                 <!-- Loop over the posts/post and get the current one you are on -->
                 <?php while(have_posts()): the_post();?>
@@ -34,6 +33,9 @@
                     </div>
                 <?php endwhile; ?>
             <?php endif; ?>
+            <div class="col-3">
+              <?php the_widget('WP_Widget_Calendar'); ?>
+            </div>
         </div>
 
 <!--

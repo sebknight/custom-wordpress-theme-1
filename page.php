@@ -1,20 +1,6 @@
-<<<<<<< HEAD
 <?php get_header(); ?>
     
     <?php  if(have_posts()): ?>
-=======
-<!--
-    page.php will render out any of your pages which gets created in the admin
-    dashboard that don't use a template, or has a unique file for it.
-    If this file doesn't exist, it will default to index.php
-
-    https://developer.wordpress.org/themes/template-files-section/page-template-files/
- -->
-
-<?php get_header(); ?>
-
-    <?php if(have_posts()): ?>
->>>>>>> 67df41381a5e497cf5664cdddc8db375f2c9aedd
         <?php while(have_posts()): the_post();?>
             <div class="container">
                 <div class="row">
