@@ -30,6 +30,21 @@ body{
     list-style-type: none;
 }
 
+<<<<<<< HEAD
 .two-columns {
     column-count: 2;
 }
+=======
+.twoColumns{
+    column-count: 2;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+.single-video-content iframe{
+    width: 100%;
+    height: 400px;
+}
+>>>>>>> 67df41381a5e497cf5664cdddc8db375f2c9aedd
